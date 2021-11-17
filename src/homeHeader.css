@@ -1,0 +1,28 @@
+.responsive-header{
+  display: none;
+  position: sticky;
+  flex-direction: column;
+  width: 100vw;
+  height: 80px;
+  background-color: black
+}
+
+.responsive-header__container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.responsive-header__logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.multi-categories-selector__label-title {
+  font-size: 18px;
+  color: #717171;
+  margin: 0;
+}
