@@ -2,17 +2,20 @@
   display: none;
   position: sticky;
   flex-direction: column;
-  width: 100vw;
-  height: 80px;
-  background-color: black
+
 }
 
 .responsive-header__container {
+  width: 100vw;
+  height: 80px;
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
   align-items: center;
   padding: 0;
+  background-color: #f7f7f7;
+  margin: 0;
+
 }
 
 .responsive-header__logo {
@@ -32,7 +35,16 @@
   border-bottom: 1px solid transparent;
   transition: border 200ms
 }
-
+.multi-categories-selector__background-colors-restaurant{
+  width: 40px;
+  height: 40px;
+  background-color: #ea1d2c;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  
+}    
 .multi-categories-selector__label-title {
   font-weight: bold;
   font-size: 18px;
@@ -54,23 +66,28 @@
 .search-input__form-wrapper{
   padding: 0;
   flex-grow: 1;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    padding: 0 5px 0 12px;
-    border-radius: 8px;
-    margin-right: 0;
-    width: 100%;
-    position: relative;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0 5px 0 12px;
+  border-radius: 8px;
+  margin-right: 0;
+  width: 100%;
+  position: relative;
 }
 
 .img-search{
+ left: 15px;
  width: 22px;
  height: 22px;
+ position: absolute;
+ transform: translateY(-50%);
+ top: 50%;
+ 
 }
 
 .search-input-field{
-min-width: 469px;
+min-width: 340px;
 display: flex;
 height: 48px;
 padding-left: 50px;
@@ -78,6 +95,7 @@ padding-right: 0;
 line-height: 1.25em;
 font-weight: 300;
 border-radius: 8px;
+border: none;
 }
 
 .delivery-input-wrapper__title {
