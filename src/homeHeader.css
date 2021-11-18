@@ -87,7 +87,7 @@
 }
 
 .search-input-field{
-min-width: 340px;
+min-width: 469px;
 display: flex;
 height: 48px;
 padding-left: 50px;
@@ -99,9 +99,15 @@ border: none;
 }
 
 .delivery-input-wrapper__title {
+  font-family: "SulSans", "Helvetica", "sans-serif";
   font-size: 12px;
   height: 12px;
   color: #a6a5a5;
   text-transform: uppercase;
   margin: 0 0 5px 0;
+}
+
+.delivery-input__address{
+ display: inline-block;
+ position: relative;
 }
