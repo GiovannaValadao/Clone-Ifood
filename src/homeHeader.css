@@ -22,7 +22,39 @@
 }
 
 .multi-categories-selector__label-title {
+  font-weight: bold;
   font-size: 18px;
   color: #717171;
   margin: 0;
+}
+.icon-marmita--arrow-down {
+  width: 24px;
+  height: 24px;
+  transform: translateY(2px);
+  margin: 0;
+  color: #ea1d2c;
+}
+
+.img-search{
+ width: 22px;
+ height: 22px;
+}
+
+.search-input-field{
+min-width: 469px;
+display: flex;
+height: 48px;
+padding-left: 50px;
+padding-right: 0;
+line-height: 1.25em;
+font-weight: 300;
+border-radius: 8px;
+}
+
+.delivery-input-wrapper__title {
+  font-size: 12px;
+  height: 12px;
+  color: #a6a5a5;
+  text-transform: uppercase;
+  margin: 0 0 5px 0;
 }
