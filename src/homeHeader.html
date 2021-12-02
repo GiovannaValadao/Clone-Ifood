@@ -6,30 +6,31 @@
 </header>
 
 <body>
-    <div class="responsive_header">
-        <div class="responsive-header__container">
-            <div class="responsive-header__logo">
+    <div class="home_header">
+        <!-- usar tag header e nav -->
+        <div class="home-header__container">
+            <div class="home-header__logo">
                 <img src="logo.jpg" width="100" height="100">
             </div>
             <div class="multi-categories-selector__label">
-                
-            <div class = "multi-categories-selector__background-colors-restaurant">
-                <img src="restaurant.png" width="40" height="40">
-            </div>
-            <div class="multi-categories-selector__label-title">
-                <p>Restaurante</p>
-            </div>
-            <div class="multi-categories-selector__label-arrow">
-                <div class="icon-marmita--arrow-down">
-                    <img src="arrow-down.svg">
+                <!-- usar tag section  -->
+                <section class="multi-categories-selector__background-colors-restaurant">
+                    <img src="restaurant.png" width="40" height="40">
+                </section>
+                <div class="multi-categories-selector__label-title">
+                    <span>Restaurante</span>
+                </div>
+                <div class="multi-categories-selector__label-arrow">
+                    <div class="icon-marmita--arrow-down">
+                        <img src="arrow-down.svg">
+                    </div>
                 </div>
             </div>
-        </div>
             <div class="search-container">
                 <form class="search-input__form">
                     <div class="search-input__form-wrapper">
                         <div class="img-search">
-                            <img src="search.svg">
+                            <img src="search.svg" class= "search_image">
                         </div>
                         <input class="search-input-field" tabindex="0" role="search" type="text" autocomplete="off"
                             aria-label="Busque por item ou loja" class="search-input__field"
@@ -39,18 +40,18 @@
             </div>
             <div class="delivery_input-wrapper">
                 <div class="delivery-input-wrapper__title">
-                    <p>Entregar em</p>
-                </div>
-                <button class="delivery-input">
+                    <span>Entregar em</span>
+                    <button class="delivery-input">
                     <div class="delivery-input__address">
-                        <img src="home.svg"  width="20" height="20">>
+                        <img src="home.svg" width="20" height="20">>
                     </div>
                 </button>
+                </div>
+                <span class="delivery-address_item">R.Sol</span>
             </div>
             <div class="icon-promotional">
                 <img src="promotion.svg">
             </div>
-        </div>
         <div>
 </body>
 

@@ -1,11 +1,11 @@
-.responsive-header{
+.home-header{
   display: none;
   position: sticky;
   flex-direction: column;
 
 }
 
-.responsive-header__container {
+.home-header__container {
   width: 100vw;
   height: 80px;
   display: flex;
@@ -18,7 +18,7 @@
 
 }
 
-.responsive-header__logo {
+.home-header__logo {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -110,4 +110,17 @@ border: none;
 .delivery-input__address{
  display: inline-block;
  position: relative;
+}
+
+.delivery-address_item{
+  font-size: 0.875rem;
+  color: #3e3e3e;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  text-align: left;
+  line-break: anywhere;
+}
+.search_image{
+
 }
