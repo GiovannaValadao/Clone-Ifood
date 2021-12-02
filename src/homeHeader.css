@@ -13,7 +13,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  background-color: #f7f7f7;
   margin: 0;
 
 }
@@ -51,7 +50,8 @@
   color: #717171;
   margin: 0;
 }
-.icon-marmita--arrow-down {
+.icon-marmita--arrow-down:hover {
+  display: block;
   width: 24px;
   height: 24px;
   transform: translateY(2px);
@@ -76,7 +76,7 @@
   position: relative;
 }
 
-.img-search{
+.search_image{
  left: 15px;
  width: 22px;
  height: 22px;
@@ -87,6 +87,7 @@
 }
 
 .search-input-field{
+background-color: #f7f7f7;
 min-width: 469px;
 display: flex;
 height: 48px;
@@ -98,19 +99,29 @@ border-radius: 8px;
 border: none;
 }
 
+.delivery-input{
+  display: flex;
+  flex-direction: row;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  padding: 0;
+  height: 25px;
+  cursor: default;
+  background-color: unset;
+  align-items: center;
+}
+
 .delivery-input-wrapper__title {
   font-family: "SulSans", "Helvetica", "sans-serif";
   font-size: 12px;
-  height: 12px;
   color: #a6a5a5;
   text-transform: uppercase;
-  margin: 0 0 5px 0;
+  margin: 0 0 0px 0;
 }
 
-.delivery-input__address{
- display: inline-block;
- position: relative;
-}
+.delivery-input__address{}
 
 .delivery-address_item{
   font-size: 0.875rem;
