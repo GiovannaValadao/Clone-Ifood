@@ -2,19 +2,17 @@
   display: none;
   position: sticky;
   flex-direction: column;
-
+  box-sizing: border-box
 }
 
 .home-header__container {
   width: 100vw;
   height: 80px;
   display: flex;
-  flex-grow: 1;
   justify-content: space-between;
   align-items: center;
   padding: 0;
   margin: 0;
-
 }
 
 .home-header__logo {
@@ -62,6 +60,9 @@
 .search-container{
   max-width: 469px;
 }
+.arrow-down{
+  width: 20px;
+}
 
 .search-input__form-wrapper{
   padding: 0;
@@ -87,30 +88,25 @@
 }
 
 .search-input-field{
-background-color: #f7f7f7;
-min-width: 469px;
-display: flex;
-height: 48px;
-padding-left: 50px;
-padding-right: 0;
-line-height: 1.25em;
-font-weight: 300;
-border-radius: 8px;
-border: none;
+ background-color: #f7f7f7;
+ min-width: 469px;
+ display: flex;
+ height: 48px;
+ padding-left: 50px;
+ padding-right: 0;
+ line-height: 1.25em;
+ font-weight: 300;
+ border-radius: 8px;
+ border: none;
 }
 
 .delivery-input{
-  display: flex;
-  flex-direction: row;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: none;
-  padding: 0;
-  height: 25px;
-  cursor: default;
-  background-color: unset;
-  align-items: center;
+ display: flex;
+ flex-direction: row;
+ border: none;
+ cursor: default;
+ background-color: unset;
+ align-items: center;
 }
 
 .delivery-input-wrapper__title {
@@ -118,10 +114,12 @@ border: none;
   font-size: 12px;
   color: #a6a5a5;
   text-transform: uppercase;
-  margin: 0 0 0px 0;
+  margin-bottom: 5px;
 }
 
-.delivery-input__address{}
+.delivery-input__address{
+  margin-right: 10px;
+}
 
 .delivery-address_item{
   font-size: 0.875rem;
@@ -132,10 +130,19 @@ border: none;
   text-align: left;
   line-break: anywhere;
 }
-.search_image{
-
-}
 .icons-links{
+  display: flex;
   flex-direction: row;
   align-items: center;
+}
+.icon-promotional{
+  width: 27px;
+  margin-right: 20px;
+}
+.user{
+  width: 27px;
+  margin-right: 20px;
+}
+.bag_image{
+ width: 20px;
 }
