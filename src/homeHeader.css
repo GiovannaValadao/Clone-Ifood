@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'SulSans';
+  src:
+    url('./styles/fonts/SulSans-Regular.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 .home-header{
   display: none;
   position: sticky;
@@ -6,13 +15,12 @@
 }
 
 .home-header__container {
-  width: 100vw;
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  margin: 0;
+  margin: 0 30px;
 }
 
 .home-header__logo {
@@ -79,7 +87,7 @@
 
 .search_image{
  left: 15px;
- width: 22px;
+ width: 40px;
  height: 22px;
  position: absolute;
  transform: translateY(-50%);
@@ -118,7 +126,9 @@
 }
 
 .delivery-input__address{
-  margin-right: 10px;
+  font-family: 14px;
+  margin-right: 1px;
+  font-family: 'SulSans', Helvetica, sans-serif;
 }
 
 .delivery-address_item{
