@@ -1,5 +1,4 @@
-import HomeHeader from "./HomeHeader.jsx";
-
+import HomeHeader from "./components/header/HomeHeader.jsx";
 
 function App() {
   return (
@@ -9,4 +8,3 @@ function App() {
   );
 }
 export default App;
-

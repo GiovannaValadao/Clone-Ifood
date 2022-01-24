@@ -15,15 +15,15 @@ function HomeHeader() {
         <div class="home-header__logo">
           <img src={Logo} width="100" height="100" />
         </div>
-        <section class="multi-categories-selector__label">
-          <div class="multi-categories-selector__background-colors-restaurant">
+        <section class="categories">
+          <div class="categories__restaurant">
             <img src={Restaurant} width="40" height="40" />
           </div>
-          <div class="multi-categories-selector__label-title">
+          <div class="categories_title">
             <span>Restaurante</span>
           </div>
-          <div class="multi-categories-selector__label-arrow">
-            <span class="icon-marmita--arrow-down">
+          <div class="categories-arrow">
+            <span class="arrow-down">
               <img src={ArrowDown} />
             </span>
           </div>
