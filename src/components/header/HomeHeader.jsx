@@ -1,12 +1,12 @@
 import "./homeHeader.css";
-import Logo from "./static/images/logo.jpg";
-import Restaurant from "./static/images/restaurant.png";
-import ArrowDown from "./static/images/arrow-down.svg";
-import Search from "./static/images/search.svg";
-import Pin from "./static/images/pin-o.svg";
-import Promotion from "./static/images/promotion.svg";
-import User from "./static/images/user.svg";
-import Bag from "./static/images/bag.svg";
+import Logo from "../../static/images/logo.jpg";
+import Restaurant from "../../static/images/restaurant.png";
+import ArrowDown from "../../static/images/arrow-down.svg";
+import Search from "../../static/images/search.svg";
+import Pin from "../../static/images/pin-o.svg";
+import Promotion from "../../static/images/promotion.svg";
+import User from "../../static/images/user.svg";
+import Bag from "../../static/images/bag.svg";
 
 function HomeHeader() {
   return (

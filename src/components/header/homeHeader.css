@@ -1,17 +1,8 @@
-@font-face {
-  font-family: 'SulSans';
-  src:
-    url('./styles/fonts/SulSans-Regular.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-.home-header{
+.home-header {
   display: none;
   position: sticky;
   flex-direction: column;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 .home-header__container {
@@ -29,7 +20,7 @@
   cursor: pointer;
 }
 
-.multi-categories-selector__label{
+.categories {
   padding: 0;
   margin: 0;
   height: 80px;
@@ -38,9 +29,9 @@
   align-items: center;
   cursor: pointer;
   border-bottom: 1px solid transparent;
-  transition: border 200ms
+  transition: border 200ms;
 }
-.multi-categories-selector__background-colors-restaurant{
+.categories__restaurant {
   width: 40px;
   height: 40px;
   background-color: #ea1d2c;
@@ -48,9 +39,8 @@
   display: flex;
   align-items: center;
   margin-right: 12px;
-  
-}    
-.multi-categories-selector__label-title {
+}
+.categories_title {
   font-weight: bold;
   font-size: 18px;
   color: #717171;
@@ -65,11 +55,11 @@
   color: #ea1d2c;
 }
 
-.arrow-down{
+.arrow-down {
   width: 20px;
 }
 
-.search-input__form-wrapper{
+.search-input__form-wrapper {
   padding: 0;
   flex-grow: 1;
   display: flex;
@@ -82,53 +72,51 @@
   position: relative;
 }
 
-.search_image{
- left: 15px;
- width: 40px;
- height: 22px;
- position: absolute;
- transform: translateY(-50%);
- top: 50%;
- 
+.search_image {
+  left: 15px;
+  width: 40px;
+  height: 22px;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
 }
 
-.search-input-field{
- background-color: #f7f7f7;
- min-width: 469px;
- display: flex;
- height: 48px;
- padding-left: 50px;
- padding-right: 0;
- line-height: 1.25em;
- font-weight: 300;
- border-radius: 8px;
- border: none;
+.search-input-field {
+  background-color: #f7f7f7;
+  min-width: 469px;
+  display: flex;
+  height: 48px;
+  padding-left: 50px;
+  padding-right: 0;
+  line-height: 1.25em;
+  font-weight: 300;
+  border-radius: 8px;
+  border: none;
 }
 
-.delivery-input{
- display: flex;
- flex-direction: row;
- border: none;
- cursor: default;
- background-color: unset;
- align-items: center;
+.delivery-input {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  cursor: default;
+  background-color: unset;
+  align-items: center;
 }
 
 .delivery-input-wrapper__title {
-  font-family: "SulSans", "Helvetica", "sans-serif";
   font-size: 12px;
   color: #a6a5a5;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
 
-.delivery-input__address{
+.delivery-input__address {
   font-family: 14px;
   margin-right: 1px;
-  font-family: 'SulSans', Helvetica, sans-serif;
+  font-family: "SulSans", Helvetica, sans-serif;
 }
 
-.delivery-address_item{
+.delivery-address_item {
   font-size: 0.875rem;
   color: #3e3e3e;
   display: flex;
@@ -136,20 +124,24 @@
   font-weight: 500;
   text-align: left;
   line-break: anywhere;
+  cursor: pointer;
 }
-.icons-links{
+.icons-links {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.icon-promotional{
+.icon-promotional {
   width: 27px;
   margin-right: 20px;
+  cursor: pointer;
 }
-.user{
+.user {
   width: 27px;
   margin-right: 20px;
+  cursor: pointer;
 }
-.bag_image{
- width: 20px;
+.bag_image {
+  width: 20px;
+  cursor: pointer;
 }
