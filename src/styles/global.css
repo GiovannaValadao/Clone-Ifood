@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "SulSans";
+  src: url("../static/fonts/SulSans-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "SulSans", "Helvetica", "sans-serif";
+}

@@ -1,7 +1,10 @@
-# Getting Started with Create React App
+# Clone Home Ifood
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Objective
+
+Develop using HTML and CSS and in the future implement Javascript and React.
 ## Available Scripts
 
 In the project directory, you can run:

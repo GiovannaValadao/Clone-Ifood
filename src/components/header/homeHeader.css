@@ -1,0 +1,147 @@
+.home-header {
+  display: none;
+  position: sticky;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.home-header__container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0 30px;
+}
+
+.home-header__logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.categories {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: border 200ms;
+}
+.categories__restaurant {
+  width: 40px;
+  height: 40px;
+  background-color: #ea1d2c;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+.categories_title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #717171;
+  margin: 0;
+}
+.icon-marmita--arrow-down:hover {
+  display: block;
+  width: 24px;
+  height: 24px;
+  transform: translateY(2px);
+  margin: 0;
+  color: #ea1d2c;
+}
+
+.arrow-down {
+  width: 20px;
+}
+
+.search-input__form-wrapper {
+  padding: 0;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0 5px 0 12px;
+  border-radius: 8px;
+  margin-right: 0;
+  width: 100%;
+  position: relative;
+}
+
+.search_image {
+  left: 15px;
+  width: 40px;
+  height: 22px;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.search-input-field {
+  background-color: #f7f7f7;
+  min-width: 469px;
+  display: flex;
+  height: 48px;
+  padding-left: 50px;
+  padding-right: 0;
+  line-height: 1.25em;
+  font-weight: 300;
+  border-radius: 8px;
+  border: none;
+}
+
+.delivery-input {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  cursor: default;
+  background-color: unset;
+  align-items: center;
+}
+
+.delivery-input-wrapper__title {
+  font-size: 12px;
+  color: #a6a5a5;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.delivery-input__address {
+  font-family: 14px;
+  margin-right: 1px;
+  font-family: "SulSans", Helvetica, sans-serif;
+}
+
+.delivery-address_item {
+  font-size: 0.875rem;
+  color: #3e3e3e;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  text-align: left;
+  line-break: anywhere;
+  cursor: pointer;
+}
+.icons-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon-promotional {
+  width: 27px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.user {
+  width: 27px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.bag_image {
+  width: 20px;
+  cursor: pointer;
+}
