@@ -10,7 +10,7 @@ import Bag from "../../static/images/bag.svg";
 
 function HomeHeader() {
   return (
-    <header className="home_header">
+    <header className="home-header">
       <nav class="home-header__container">
         <div class="home-header__logo">
           <img src={Logo} width="100" height="100" />
