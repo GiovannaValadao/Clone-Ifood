@@ -12,35 +12,35 @@ function HomeHeaderMobile() {
     <header className="header-mobile">
       <nav class="header-mobile__container">
         <div class="header-mobile__icon-categories">
-          <img src={Restaurant} width="40" height="40" />
+          <img src={Restaurant} width="40" height="40" alt="category-image" />
         </div>
         <div class="input-wrapper">
           <span class="input-wrapper__title">Entregar em</span>
           <div class="address-info">
-            <img src={Pin} width="15" height="15" />
+            <img src={Pin} width="15" height="15" alt="location-pin-image" />
             <span class="input_wrapper__item">R.Sol, 1233</span>
             <div class="image_icon">
-              <img src={ArrowDown} />
+              <img src={ArrowDown} alt="arrow-down-image" />
             </div>
           </div>
         </div>
       </nav>
       <div class="tab-bar">
         <div class="tab-bar__home">
-          <img src={HomeFilled} />
+          <img src={HomeFilled} alt="home-image" />
           <span class="tab-bar__text">Inicio</span>
         </div>
         <div class="tab-bar__explorer">
-          <img src={Explorer} />
+          <img src={Explorer} alt="explorer-image" />
           <span class="tab-bar__text">Buscar</span>
         </div>
         <div class="tab-bar__order">
-          <img src={Order} />
+          <img src={Order} alt="order-image" />
           <span class="tab-bar__text">Pedido</span>
         </div>
         <div class="tab-bar__profile">
           <span class="tab-bar__icon-profile">
-            <img src={Profile} />
+            <img src={Profile} alt="profile-image" />
           </span>
           <span class="tab-bar__text">Perfil</span>
         </div>
