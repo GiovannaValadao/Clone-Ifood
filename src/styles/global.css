@@ -8,3 +8,20 @@
 body {
   font-family: "SulSans", "Helvetica", "sans-serif";
 }
+
+@media only screen and (max-width: 768px) {
+  .header-mobile {
+    display: flex;
+  }
+  .home-header {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .header-mobile {
+    display: none;
+  }
+  .home-header {
+    display: block;
+  }
+}
