@@ -6,7 +6,7 @@ function VoucherHeader() {
   return (
     <div className="voucher-header">
       <div class="voucher-header__container">
-        <span class="voucher-iconn">
+        <span class="voucher-icon">
           <img src={IconVoucher} alt="voucher-image" />
         </span>
         <span class="voucher-title">
