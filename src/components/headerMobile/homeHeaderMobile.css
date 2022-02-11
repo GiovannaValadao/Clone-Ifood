@@ -7,7 +7,7 @@
   margin: auto;
   z-index: 9997;
   border-top: none;
-  padding: 15px 0px 0 15px;
+  padding: 15px;
 }
 .header-mobile__container {
   display: flex;

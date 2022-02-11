@@ -22,12 +22,24 @@ body {
   .home-header {
     display: none;
   }
+  .voucher-header-mobile {
+    display: flex;
+  }
+  .voucher-header {
+    display: none;
+  }
 }
 @media only screen and (min-width: 769px) {
   .header-mobile {
     display: none;
   }
   .home-header {
+    display: block;
+  }
+  .voucher-header-mobile {
+    display: none;
+  }
+  .voucher-header {
     display: block;
   }
 }
