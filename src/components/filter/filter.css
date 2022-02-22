@@ -19,11 +19,14 @@
   color: #717171;
   cursor: pointer;
 }
+.filter-container__list-item:hover {
+  background-color: #f7f7f7;
+}
 .filter-container__list-text {
   display: flex;
   align-items: center;
 }
-.image {
+.filter-container__image {
   display: flex;
   align-items: center;
   color: #717171;

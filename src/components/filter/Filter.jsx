@@ -31,7 +31,7 @@ function Filter() {
         </li>
         <li class="filter-container__list-item">
           <span class="filter-container__list-text">Distância</span>
-          <span class="image">
+          <span class="filter-container__image">
             <img src={ArrowDownCurrentColor} />
           </span>
         </li>
