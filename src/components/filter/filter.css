@@ -1,0 +1,33 @@
+.filter-container {
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.filter-container__list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.filter-container__list-item {
+  display: flex;
+  font-size: 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 16px;
+  padding: 5px 16px;
+  color: #717171;
+  cursor: pointer;
+}
+.filter-container__list-item:hover {
+  background-color: #f7f7f7;
+}
+.filter-container__list-text {
+  display: flex;
+  align-items: center;
+}
+.filter-container__image {
+  display: flex;
+  align-items: center;
+  color: #717171;
+}
