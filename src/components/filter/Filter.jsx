@@ -10,12 +10,12 @@ function Filter() {
       <ul class="filter-container__list">
         <li class="filter-container__list-item">
           <span class="filter-container__list-text">Ordenar</span>
-          <span class="image">
+          <span class="filter-container__image">
             <img src={ArrowDownCurrentColor} />
           </span>
         </li>
         <li class="filter-container__list-item">
-          <span class="image">
+          <span class="filter-container__image">
             <img src={Takeout} />
           </span>
           <span class="filter-container__list-text">Pra retirar</span>
@@ -25,7 +25,7 @@ function Filter() {
         </li>
         <li class="filter-container__list-item">
           <span class="filter-container__list-text">Vale-refeição</span>
-          <span class="image">
+          <span class="filter-container__image">
             <img src={ArrowDownCurrentColor} />
           </span>
         </li>
@@ -43,7 +43,7 @@ function Filter() {
         </li>
         <li class="filter-container__list-item">
           <span class="filter-container__list-text">Filtros</span>
-          <span class="image">
+          <span class="filter-container__image">
             <img src={FilterImage} />
           </span>
         </li>
