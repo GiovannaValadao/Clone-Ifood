@@ -31,3 +31,14 @@
   align-items: center;
   color: #717171;
 }
+@media screen and (max-width: 1024px) {
+  .filter-container__list {
+    display: flex;
+    list-style: none;
+    overflow-x: scroll;
+    padding: 20px;
+    margin: -20px -20px 0;
+    height: 30px;
+    white-space: nowrap;
+  }
+}
