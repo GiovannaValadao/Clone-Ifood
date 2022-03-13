@@ -5,6 +5,7 @@ import VoucherHeaderMobile from "./components/voucherHeaderMobile/VoucherHeaderM
 import Filter from "./components/filter/Filter.jsx";
 
 import "./styles/global.css";
+import CarouselCategories from "./components/carouselCategories/CarouselCategories.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <VoucherHeader />
       <VoucherHeaderMobile />
       <Filter />
+      <CarouselCategories />
     </div>
   );
 }
