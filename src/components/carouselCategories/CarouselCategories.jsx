@@ -1,7 +1,6 @@
-import "./carosselCategories.css";
+import "./carouselCategories.css";
 import Groceries from "../../static/images/groceries.jpg";
 import Acai from "../../static/images/acai.png";
-import SweetAndCakes from "../../static/images/sweetsandcakes.png";
 import Promotions from "../../static/images/promotions.png";
 import Snacks from "../../static/images/snacks.png";
 import Salted from "../../static/images/salted.png";
@@ -13,6 +12,7 @@ import Italian from "../../static/images/italian.png";
 import Brazilian from "../../static/images/brazilian.png";
 import Healthy from "../../static/images/healthy.jpg";
 import Chinese from "../../static/images/chinese.jpg";
+import Convenience from "../../static/images/convenience.png";
 
 function CarouselCategories() {
   return (
@@ -38,18 +38,18 @@ function CarouselCategories() {
           <li>
             <img
               className="carousel-categories__container-list-image"
-              src={SweetAndCakes}
-              alt="Ilustração de Doces e Bolos"
-            />
-            <p>Doces & Bolos</p>
-          </li>{" "}
-          <li>
-            <img
-              className="carousel-categories__container-list-image"
               src={Promotions}
               alt="Ilustração de Promoção"
             />
             <p>Promoções</p>
+          </li>{" "}
+          <li>
+            <img
+              className="carousel-categories__container-list-image"
+              src={Convenience}
+              alt="Ilustração de Conveniência"
+            />
+            <p>Conveniência</p>
           </li>{" "}
           <li>
             <img

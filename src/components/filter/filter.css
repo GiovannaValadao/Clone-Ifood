@@ -1,9 +1,8 @@
 .filter-container {
   display: flex;
-  padding: 20px;
-  margin: 10px;
   align-items: center;
   justify-content: center;
+  padding: 20px 0 0 20px;
 }
 .filter-container__list {
   display: flex;
