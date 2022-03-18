@@ -12,7 +12,7 @@ import Italian from "../../static/images/italian.png";
 import Brazilian from "../../static/images/brazilian.png";
 import Healthy from "../../static/images/healthy.jpg";
 import Chinese from "../../static/images/chinese.jpg";
-import Convenience from "../../static/images/convenience.png";
+import Gourmet from "../../static/images/gourmet.png";
 
 function CategoriesCarousel() {
   return (
@@ -46,10 +46,10 @@ function CategoriesCarousel() {
           <li>
             <img
               className="categories-carousel__container-list-image"
-              src={Convenience}
-              alt="Ilustração de Conveniência"
+              src={Gourmet}
+              alt="Ilustração de comida gourmet"
             />
-            <p>Conveniência</p>
+            <p>Gourmet</p>
           </li>{" "}
           <li>
             <img
