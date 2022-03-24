@@ -1,0 +1,21 @@
+.banner-cardstack {
+  margin-top: 40px;
+}
+.banner-cardstack__container {
+  padding: 0 40px;
+}
+.banner-cardstack__container-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  overflow-x: scroll;
+}
+.banner-cardstack__container-list-item {
+  padding: 20px;
+  cursor: pointer;
+}
+.banner-cardstack__container-list::-webkit-scrollbar {
+  display: none;
+}
