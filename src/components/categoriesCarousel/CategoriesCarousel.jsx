@@ -1,8 +1,5 @@
 import "./categoriesCarousel.css";
-import Groceries from "../../static/images/groceries.jpg";
 import Acai from "../../static/images/acai.png";
-import Promotions from "../../static/images/promotions.png";
-import Snacks from "../../static/images/snacks.png";
 import Salted from "../../static/images/salted.png";
 import IceCream from "../../static/images/ice-cream.png";
 import Japan from "../../static/images/japan.png";
@@ -12,7 +9,7 @@ import Italian from "../../static/images/italian.png";
 import Brazilian from "../../static/images/brazilian.png";
 import Healthy from "../../static/images/healthy.jpg";
 import Chinese from "../../static/images/chinese.jpg";
-import Gourmet from "../../static/images/gourmet.png";
+import Pastel from "../../static/images/pastel.png";
 
 function CategoriesCarousel() {
   return (
@@ -22,43 +19,11 @@ function CategoriesCarousel() {
           <li>
             <img
               className="categories-carousel__container-list-image"
-              src={Groceries}
-              alt="Ilustração de Mercado"
-            />
-            <p>Mercado</p>
-          </li>
-          <li>
-            <img
-              className="categories-carousel__container-list-image"
               src={Acai}
               alt="Ilustração de Açaí"
             />
             <p>Açaí</p>
           </li>{" "}
-          <li>
-            <img
-              className="categories-carousel__container-list-image"
-              src={Promotions}
-              alt="Ilustração de Promoção"
-            />
-            <p>Promoções</p>
-          </li>{" "}
-          <li>
-            <img
-              className="categories-carousel__container-list-image"
-              src={Gourmet}
-              alt="Ilustração de comida gourmet"
-            />
-            <p>Gourmet</p>
-          </li>{" "}
-          <li>
-            <img
-              className="categories-carousel__container-list-image"
-              src={Snacks}
-              alt="Ilustração de Lanches"
-            />
-            <p>Lanches</p>
-          </li>
           <li>
             <img
               className="categories-carousel__container-list-image"
@@ -130,6 +95,22 @@ function CategoriesCarousel() {
               alt="Ilustração de comida chinesa"
             />
             <p>Chinesa</p>
+          </li>
+          <li>
+            <img
+              className="categories-carousel__container-list-image"
+              src={Pastel}
+              alt="Ilustração de pastel"
+            />
+            <p>Pastel</p>
+          </li>
+          <li>
+            <img
+              className="categories-carousel__container-list-image"
+              src={Brazilian}
+              alt="Ilustração de pastel"
+            />
+            <p>Brasileira</p>
           </li>
         </ul>
       </div>
