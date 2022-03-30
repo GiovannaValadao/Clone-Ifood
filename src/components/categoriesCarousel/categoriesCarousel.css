@@ -8,8 +8,8 @@
   font-size: 14px;
   color: #717171;
   cursor: pointer;
-  overflow-x: scroll;
-  padding: 0 20px;
+  overflow-x: auto;
+  padding: 20px 80px;
 }
 .categories-carousel__container-list {
   display: flex;
