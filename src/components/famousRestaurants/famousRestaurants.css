@@ -1,0 +1,61 @@
+.famous-restaurants {
+  padding-top: 20px;
+  width: 100%;
+}
+.famous-restaurants__title-name {
+  color: #3f3e3e;
+  padding: 20px 0 20px 86px;
+}
+.famous-restaurants__container {
+  padding: 20px 0 20px 86px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 90%;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+
+.famous-restaurants__container-content {
+  display: flex;
+  flex-direction: column;
+}
+.famous-restaurants__container-content-image {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.famous-restaurants__container-content-name {
+  color: #717171;
+  font-size: 14px;
+  padding-top: 6px;
+  text-align: center;
+}
+.famous-restaurants__container::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+.famous-restaurants__container::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  border-radius: 1px;
+}
+
+.famous-restaurants__container::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .famous-restaurants__container {
+    padding: 20px 0 20px 20px;
+  }
+  .famous-restaurants__title-name {
+    padding: 20px 0 20px 20px;
+  }
+  .famous-restaurants__container-content-image {
+    width: 70px;
+    height: 70px;
+  }
+}
