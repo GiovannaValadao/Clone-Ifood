@@ -9,7 +9,7 @@
   color: #717171;
   cursor: pointer;
   overflow-x: auto;
-  padding: 20px 80px;
+  margin-top: 20px;
 }
 .categories-carousel__container-list {
   display: flex;

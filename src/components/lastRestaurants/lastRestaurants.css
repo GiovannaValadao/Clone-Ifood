@@ -4,17 +4,14 @@
 }
 .last-restaurants__title-name {
   color: #3f3e3e;
-  padding: 20px 0 20px 86px;
 }
 .last-restaurants__container {
   padding: 20px 0;
   display: flex;
   flex-direction: row;
   gap: 40px;
-  width: 90%;
   justify-content: flex-start;
   overflow-x: auto;
-  margin: 0 auto;
 }
 
 .last-restaurants__container-content {

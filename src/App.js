@@ -16,10 +16,12 @@ function App() {
       <HomeHeaderMobile />
       <VoucherHeader />
       <VoucherHeaderMobile />
-      <Filter />
-      <CategoriesCarousel />
-      <BannerCardstack />
-      <LastRestaurants />
+      <div className="content-home">
+        <Filter />
+        <CategoriesCarousel />
+        <BannerCardstack />
+        <LastRestaurants />
+      </div>
     </div>
   );
 }
