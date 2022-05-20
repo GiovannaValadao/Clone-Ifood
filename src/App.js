@@ -5,6 +5,7 @@ import VoucherHeaderMobile from "./components/voucherHeaderMobile/VoucherHeaderM
 import Filter from "./components/filter/Filter.jsx";
 import CategoriesCarousel from "./components/categoriesCarousel/CategoriesCarousel.jsx";
 import BannerCardstack from "./components/bannerCardstack/BannerCardstack.jsx";
+import LastRestaurants from "./components/lastRestaurants/LastRestaurants.jsx";
 
 import "./styles/global.css";
 
@@ -15,9 +16,12 @@ function App() {
       <HomeHeaderMobile />
       <VoucherHeader />
       <VoucherHeaderMobile />
-      <Filter />
-      <CategoriesCarousel />
-      <BannerCardstack />
+      <div className="content-home">
+        <Filter />
+        <CategoriesCarousel />
+        <BannerCardstack />
+        <LastRestaurants />
+      </div>
     </div>
   );
 }

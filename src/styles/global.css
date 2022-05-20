@@ -14,7 +14,9 @@
 body {
   font-family: "SulSans", "Helvetica", "sans-serif";
 }
-
+.content-home {
+  padding: 20px 80px;
+}
 @media only screen and (max-width: 768px) {
   .header-mobile {
     display: flex;
@@ -41,5 +43,10 @@ body {
   }
   .voucher-header {
     display: block;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .content-home {
+    padding: 10px;
   }
 }
