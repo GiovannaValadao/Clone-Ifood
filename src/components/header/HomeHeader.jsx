@@ -7,8 +7,17 @@ import Pin from "../../static/images/pin-o.svg";
 import Promotion from "../../static/images/promotion.svg";
 import User from "../../static/images/user.svg";
 import Bag from "../../static/images/bag.svg";
+import Modal from "../modal/Modal";
+
+import { useState } from "react";
 
 function HomeHeader() {
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleShowModal = () => {
+    setShowModal((prevState) => !prevState);
+  };
+
   return (
     <header className="home-header">
       <nav class="home-header__container">
@@ -56,7 +65,14 @@ function HomeHeader() {
               class="delivery-input__address"
             />
             <span class="delivery-address_item">R.Sol, 1233</span>
-            <img src={ArrowDown} />
+            <button
+              class="delivery-address_item-button"
+              onClick={toggleShowModal}
+            >
+              {" "}
+              <img src={ArrowDown} />
+            </button>
+            <Modal show={showModal} toggleModal={toggleShowModal} />
           </div>
         </section>
         <section class="icons-links">
