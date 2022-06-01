@@ -24,7 +24,7 @@
 .modal-content__button-icon {
   color: #ea1d2c;
 }
-.modal-content__icon {
+.modal-content__container {
   text-align: center;
   padding: 30px 0;
   display: flex;
@@ -33,25 +33,21 @@
   justify-content: center;
   gap: 30px;
 }
-.modal-content__title {
+.modal-content__container-title {
   color: #3e3e3e;
   text-align: center;
 }
-.modal-content-input {
+.modal-content__container-input {
   width: 90%;
 }
-.modal-content-input__form-wrapper {
-  padding: 0;
+.modal-content__container-input__form-wrapper {
   flex-grow: 1;
   display: flex;
   align-items: center;
-  background-color: white;
   padding: 0 5px 0 12px;
-  border-radius: 8px;
-  margin-right: 0;
   position: relative;
 }
-.modal-content-input-field {
+.modal-content__container-input-field {
   background-color: #f7f7f7;
   width: 100%;
   display: flex;

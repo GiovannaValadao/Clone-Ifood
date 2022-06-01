@@ -16,18 +16,18 @@ const Modal = ({ show, toggleModal }) => {
         >
           <span className="modal-content__button-icon">x</span>
         </button>
-        <div class="modal-content__icon">
+        <div class="modal-content__container">
           <img src={AddressIcon} alt="icone de endereço" />
 
-          <span className="modal-content__title">
+          <span className="modal-content__container-title">
             Onde você quer receber seu pedido?
           </span>
-          <section className="modal-content-input">
-            <form class="modal-content-input__form">
-              <div class="modal-content-input__form-wrapper">
+          <section className="modal-content__container-input">
+            <form class="modal-content__container-input__form">
+              <div class="modal-content__container-input__form-wrapper">
                 <img src={Search} class="search_image" alt="imagem de lupa" />
                 <input
-                  class="modal-content-input-field"
+                  class="modal-content__container-input-field"
                   tabindex="0"
                   role="search"
                   type="text"
