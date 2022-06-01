@@ -6,6 +6,7 @@ import Filter from "./components/filter/Filter.jsx";
 import CategoriesCarousel from "./components/categoriesCarousel/CategoriesCarousel.jsx";
 import BannerCardstack from "./components/bannerCardstack/BannerCardstack.jsx";
 import LastRestaurants from "./components/lastRestaurants/LastRestaurants.jsx";
+import MerchantList from "./components/merchantList/MerchantList.jsx";
 
 import "./styles/global.css";
 
@@ -21,6 +22,7 @@ function App() {
         <CategoriesCarousel />
         <BannerCardstack />
         <LastRestaurants />
+        <MerchantList />
       </div>
     </div>
   );
