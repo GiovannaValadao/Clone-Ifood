@@ -33,14 +33,12 @@
 .merchant-list__content-info-first-dark {
   font-weight: 300;
   color: #717171;
-  font-size: 0.75rem;
-  line-height: 0.9375rem;
+  font-size: 12px;
 }
 .merchant-list__content-info-second-dark {
   font-weight: 300;
   color: #717171;
-  font-size: 0.75rem;
-  line-height: 0.9375rem;
+  font-size: 12px;
 }
 @media screen and (max-width: 1024px) {
   .merchant-title {
