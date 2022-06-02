@@ -128,6 +128,11 @@
   line-break: anywhere;
   cursor: pointer;
 }
+.delivery-address_item-button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
 .icons-links {
   display: flex;
   flex-direction: row;
