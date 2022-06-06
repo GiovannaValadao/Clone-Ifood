@@ -1,0 +1,59 @@
+.merchant-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+.merchant-title {
+  color: #3f3e3e;
+  font-size: 16px;
+  padding: 10px 0;
+}
+.merchant-list__content {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 20px 0;
+}
+.merchant-list__content-image-item {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.merchant-list__content-info-name {
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+}
+.merchant-list__content-info-first-yellow {
+  color: #fab125;
+  font-size: 12px;
+  font-weight: 700;
+}
+.merchant-list__content-info-first-dark {
+  font-weight: 300;
+  color: #717171;
+  font-size: 12px;
+}
+.merchant-list__content-info-second-dark {
+  font-weight: 300;
+  color: #717171;
+  font-size: 12px;
+}
+@media screen and (max-width: 1024px) {
+  .merchant-title {
+    padding: 0 0 0 20px;
+  }
+  .merchant-list {
+    padding: 0;
+  }
+  .merchant-list__content {
+    padding: 20px;
+  }
+
+  .merchant-list__content-image-item {
+    width: 70px;
+    height: 70px;
+    object-fit: fill;
+  }
+}
