@@ -7,6 +7,7 @@ import CategoriesCarousel from "./components/categoriesCarousel/CategoriesCarous
 import BannerCardstack from "./components/bannerCardstack/BannerCardstack.jsx";
 import LastRestaurants from "./components/lastRestaurants/LastRestaurants.jsx";
 import MerchantList from "./components/merchantList/MerchantList.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 import "./styles/global.css";
 
@@ -24,6 +25,7 @@ function App() {
         <LastRestaurants />
         <MerchantList />
       </div>
+      <Footer />
     </div>
   );
 }
