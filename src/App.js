@@ -24,8 +24,8 @@ function App() {
         <BannerCardstack />
         <LastRestaurants />
         <MerchantList />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
